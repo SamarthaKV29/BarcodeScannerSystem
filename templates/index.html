@@ -1,0 +1,18 @@
+$def with (i)
+
+<html>
+    <head>
+        <title>Gothons Of Planet Percal #25</title>
+    </head>
+<body>
+
+$if i:
+    I just wanted to say <em style="color: green; font-size: 2em;">$i</em>.
+$else:
+    <em>Hello</em>, world!
+
+<br>
+$for i in range(i+1):
+    I like $i
+</body>
+</html>
